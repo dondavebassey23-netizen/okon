@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f0e1e1;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#countryList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.country-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.country-card:hover {
+  transform: scale(1.03);
+}
+
+.country-card img {
+  width: 100px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.country-card button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.country-card button:hover {
+  background: #2980b9;
+}
+
+/* Modal */
+.modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
+
+.modal-content img {
+  width: 150px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.controls{
+    background-color: rgb(7, 139, 139);
+}
+
+h2{
+    text-align: center;
+}
+
+.topDesign{
+  background-color: rgb(19, 144, 182);
+  
+}

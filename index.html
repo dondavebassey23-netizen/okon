@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Explorer</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="topDesign">
+     <h1>COUNTRY EXPLORER</h1>
+    <h2>Lets Get To Explore The World</h2>
+  </div>
+ 
+  <!-- Controls -->
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search by country name">
+    <select id="regionFilter">
+      <option value="all">All Regions</option>
+      <option value="Africa">Africa</option>
+      <option value="Americas">Americas</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+  </div>
+
+  <!-- Status & List -->
+  <p id="status">Loading...</p>
+  <div id="countryList"></ul>
+
+  <!-- Details section -->
+  <div class="container">
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
