@@ -1,0 +1,1 @@
+I used chat gtp to effect necessery corrections especially when i could not figure out where i had issues with displaying the countries, flags,maps. This assisted my work and made it easy to get through the codes correctly.
